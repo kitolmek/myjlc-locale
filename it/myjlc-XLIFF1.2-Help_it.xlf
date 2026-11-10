@@ -12,88 +12,132 @@
           <source>Say 'Hi' to Lolly!
 She likes fancy clothes, cute stuff, spending time with friends, and discovering her sexuality.
 She's going to hang with you today... \vPlease, take care of her.</source>
+          <target state="translated">Saluta Lolly!
+Le piace vestire elegante, la roba carina, passare il tempo con gli amici e scoprire la propria sessualità.
+Oggi passerà del tempo con te... \vPrenditi cura di lei.
+</target>
         </trans-unit>
         <trans-unit id="1608755818496" xml:space="preserve" resname="help_talks">
           <source>Pay attention to your partner.
 She'll tell you if she feels uncomfortable, or what she wants you to do.</source>
+          <target state="translated">Presta attenzione al tuo partner.
+Ti farà sapere se si sente non a suo agio, o cosa vuole che tu faccia.
+</target>
         </trans-unit>
         <trans-unit id="1737143463936" xml:space="preserve" resname="help_marousal">
           <source>This is your arousal meter.
 You may come when aroused enough. \vOn 100% you won't hold yourself.</source>
+          <target state="needs-translation">Questo è l'indicatore della tua eccitazione.
+Potrai venire quando sei abbastanza eccitato. \vAl 100% non sarai in grado di controllarti.
+</target>
         </trans-unit>
         <trans-unit id="1856534327296" xml:space="preserve" resname="help_farousal">
           <source>This is your girl's arousal meter. \vShe will climax when it fills up.</source>
+          <target state="translated">Questo è l'indicatore dell'eccitazione della tua ragazza. \vRaggiungerà l'orgasmo quando si riempirà.</target>
         </trans-unit>
         <trans-unit id="1953267560448" xml:space="preserve" resname="help_badmeter">
           <source>She may not like some things you do.  \vTry to keep her annoyance low.</source>
+          <target state="translated">Alcune cose che fai potrebbero non piacerle.  \vCerca di tenere basso il suo livello di fastidio.</target>
         </trans-unit>
         <trans-unit id="2044812439552" xml:space="preserve" resname="help_controls">
           <source>Use buttons and sliders to control the active toys.</source>
+          <target state="needs-translation">Usa i pulsanti e i slider per controllare i sex toy attivi.</target>
         </trans-unit>
         <trans-unit id="2187456524288" xml:space="preserve" resname="help_patreon">
           <source>Support me on Patreon \vto make {name} feel even better :-)
 We'll decide on the new features, clothes and toys there.. \vAlso exclusive content will appear in the future.</source>
+          <target state="needs-translation">Sostienimi su Patreon \vper far sentire {name} ancora meglio :-)
+Decideremo insieme le nuove funzionalità, i vestiti e sex toys... \vIn futuro arriveranno anche contenuti esclusivi.</target>
         </trans-unit>
         <trans-unit id="2370294624256" xml:space="preserve" resname="help_erozone">
           <source>{name} has many erogenous zones. \vSome are more sensitive then others.
 Use the toys around to play with her.</source>
+          <target state="translated">{name} ha molte zone erogene. \vAlcune sono più sensibili di altre.
+Usa i sex toys attorno per giocare con lei.</target>
         </trans-unit>
         <trans-unit id="2694954725376" xml:space="preserve" resname="help_insertion">
           <source>Control toys by your hand, sliders on the panel aside or both for better stimulation.</source>
+          <target state="translated">Controlla i sex toys con la tua mano, con gli slider sul pannello laterale o entrambi per una stimolazione migliore.</target>
         </trans-unit>
         <trans-unit id="2900177825792" xml:space="preserve" resname="help_cumming">
           <source>This button will appear \vwhen you're ready to come.</source>
+          <target state="translated">Questo pulsante apparirà \vquando sarai pronto a venire.</target>
         </trans-unit>
         <trans-unit id="3778087596032" xml:space="preserve" resname="help_toys">
           <source>Simply move toys to zones of your interest until they're highlighted and use to see what happens.</source>
+          <target state="needs-translation">Sposta semplicemente i sex toys sulle zone che ti interessano finché non si evidenziano e usali per vedere cosa succede.</target>
         </trans-unit>
         <trans-unit id="3961466761216" xml:space="preserve" resname="help_wardrobe">
           <source>Use the wardrobe to choose {name}'s look.
 She might be a princess \vor a bad girl for you today!
 And more options are coming soon.</source>
+          <target state="needs-translation">Usa il guardaroba per scegliere l'aspetto di {name}.
+Oggi potrebbe essere una principessa \vo una ragazza cattiva per te!
+E presto arriveranno altre opzioni.</target>
         </trans-unit>
         <trans-unit id="4137770135552" xml:space="preserve" resname="help_camera">
           <source>Use right or middle mouse button to move around. \vScroll with mouse wheel to look closer.</source>
+          <target state="needs-translation">Usa il pulsante destro o quello centrale del mouse per muoverti. \vScorri con la rotella per guardare più da vicino.</target>
         </trans-unit>
         <trans-unit id="4295383691264" xml:space="preserve" resname="heelp_panicbutton">
           <source>Press &lt;Esc&gt; to quickly minimize the game in case of emergency (Windows only).</source>
+          <target state="needs-translation">Premi &lt;Esc&gt; per ridurre rapidamente a icona il gioco in caso di emergenza (solo Windows).</target>
         </trans-unit>
         <trans-unit id="4695969083392" xml:space="preserve" resname="help_personality">
           <source>Looking for a challenge? Get a unique personality on each date.</source>
+          <target state="needs-translation">Cerchi una sfida? Ottieni una personalità unica a ogni appuntamento.</target>
         </trans-unit>
         <trans-unit id="38589405704192" xml:space="preserve" resname="welcome_hello">
           <source>Say 'Hi' to Lolly!
 She likes fancy clothes, cute stuff, spending time with friends, and discovering her sexuality.
 She's going to hang with you today... \vPlease, take care of her.</source>
+          <target state="translated">Saluta Lolly!&#13;
+Le piace vestire elegante, la roba carina, passare il tempo con gli amici e scoprire la propria sessualità.&#13;
+Oggi passerà del tempo con te... \vPrenditi cura di lei.</target>
         </trans-unit>
         <trans-unit id="39431345123328" xml:space="preserve" resname="welcome_settings">
           <source>fine tune the UI</source>
+          <target state="needs-translation">regola l'interfaccia</target>
         </trans-unit>
         <trans-unit id="39744747712512" xml:space="preserve" resname="welcome_1_9_main">
           <source>&lt;size=200%&gt;Jazz it!&lt;/size&gt;
 Challenge yourself
 in a completely reworked 
 roguelike relationship simulator mode</source>
+          <target state="needs-translation">&lt;size=200%&gt;Jazz it!&lt;/size&gt;
+Mettiti alla prova
+in un simulatore di relazioni
+roguelike completamente rifatto</target>
         </trans-unit>
         <trans-unit id="40047769399296" xml:space="preserve" resname="welcome_1_9_jazz">
           <source>jazz date the girls 
 from different corners 
 of the world</source>
+          <target state="needs-translation">appuntamenti jazz
+con ragazze
+da tutto il mondo</target>
         </trans-unit>
         <trans-unit id="40294105067520" xml:space="preserve" resname="welcome_1_9_trust">
           <source>win her trust to unlock more possibilities</source>
+          <target state="translated">conquista la sua fiducia per sbloccare nuove possibilità</target>
         </trans-unit>
         <trans-unit id="40576083931136" xml:space="preserve" resname="welcome_1_9_traits">
           <source>traits are not set in stone anymore — \vshape them with your actions</source>
+          <target state="needs-translation">i tratti non sono più scolpiti nella pietra — \vmodellali con le tue azioni</target>
         </trans-unit>
         <trans-unit id="40789532061696" xml:space="preserve" resname="welcome_1_9_slots">
           <source>more slots 
 for more girlfriends,
 but make sure you 
 can satisfy them all!</source>
+          <target state="needs-translation">più slot
+per più ragazze,
+ma assicurati di
+poterle soddisfare tutte!</target>
         </trans-unit>
         <trans-unit id="40956033347584" xml:space="preserve" resname="welcome_1_9_unlock">
           <source>challenge yourself with the toys *she* chooses</source>
+          <target state="needs-translation">mettiti alla prova con i sex toys che sceglie *lei*</target>
         </trans-unit>
       </group>
     </body>
