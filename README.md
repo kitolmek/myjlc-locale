@@ -23,6 +23,17 @@ Each folder contains the lines for a certain language. The files inside represen
 - `myjlc-XLIFF1.2-Wardrobe_xx.xlf` -- wardrobe item names (this includes toys). 'group_xx" for clothes categories, 'unlock_xx' for the groups unlockable in Jazz mode (these are shown in log and confirmation dialog).
 
 
+# Glossary
+
+- *Version control system* (VCS) -- software allowing many people to work with the same files with minimal conflicts.
+- *Git* -- the most popular version control system in the world. Github is its most popular web implementation, allowing millions of people to work together.
+- *Repository* -- literally a collection of files, which are managed by version control system. It's program code usually, but simple text files in our case.
+- *Fork* -- your own copy of main *repository*. The idea is that you make whatever you want with your fork, and when you're happy with the changes you suggest them back to the owner of main repository. Also a verb meaning 'to make a fork'
+- *Commit* -- literally a set of changes. Usually you make multiple changes on your local computer, then commit them to make version control system know about them. In our case you'll probably use the github UI, so it will handle each file edit as a single commit -- that's ok, we can live with it. Also the verb meaning 'to create a commit'.
+- *Pull request* (PR) -- the request to the repository owner to accept your changes. They can just accept it 'as is' or leave you a feedback.
+- *Conflict* -- the line changed by multiple persons in parallel. Version control system is designed to merge most changes automatically until the parallel changes are done in the very same place. Then it shows it as a conflict and require human intrusion to help her.
+
+
 # Workflow
 
 You'll need the github account to participate. Note, if you worry about your privacy and do not want to share your everyday name/nickname, consider creating a separate account for this.
@@ -60,6 +71,8 @@ So make your changes and save it (the button is at the same corner). Github will
 
 ![commit messsage](readme-pics/git-commit.png)
 
+Note, it suggests you to choose between commiting to the XX branch (usually 'main') and creating a new one. Simply leave the first option selected to make things easier.
+
 'Commit' itself is literally a pack of changes done, it might include many changes in different files, but when applying changes this way a separate commit is created for each file. That's the main feature of source control systems like git (and github being a face of it): instead of storing whole files it actually stores the changes, so it's much easier for many people to work on the same files. Imagine, Peter changed line 3 of a file, Mike added a few lines after line 9, then Barabara removed the line 111 from the same file -- it might be a problem to combine their work as we now have 3 versions of the same file, but for git these are separate changes and those don't intersect at all.
 
 ## Make changes in xliff editor
@@ -87,6 +100,8 @@ After all your changes are ready you should create a 'pull request' to transfer 
 ![press contribute to create a PR](readme-pics/git-contribute.png)
 ![create pull request form](readme-pics/git-pullrequest-form.png)
 
+If you need to fix something, you don't need to crerate new pool requests. All changes you commit on top will be automatically added. Then after your request is approved and merged into the main repository it's closed and you'll have a create new ones for next pieces.
+
 ## Best practices
 
 To keep your copy up-to-date with everyone it's a good idea to sync it with the main repository before starting a work session, so you can get all the changes made by other translators and not duplicate their work.
@@ -95,7 +110,22 @@ To keep your copy up-to-date with everyone it's a good idea to sync it with the 
 
 Make 'commits' at the end of each work session to save your work, e.g. once a day. Once a meaningful amount of changes is collected, make pull requests to push them to the main repository as it was described above. 
 
-You're not required to push your changes every day (I'm afraid to spend all my time reviewing your changes, honestly), though don't keep your updates private for too long as well. Otherwise if there are multiple translators for your language there might occur conflicts. It's not a big deal actually, as git is designed to resolve issues like this, but it means I should extend this guide a lot with much more screenshots and explanations :-D.
+You're not required to push your changes every day (I'm afraid to spend all my time reviewing your changes, honestly), though don't keep your updates private for too long as well. Otherwise if there are multiple translators for your language there might occur conflicts. It's not a big deal actually, as git is designed to resolve issues like this, I'm going to cover it in the next part.
+
+## Conflicts
+
+If someone else eedited the same lines as you do a conflict might appear. Then you'll get a warning about that when creating a pull request -- proceed and you'll get an opportunity to fix it. Click 'resolve conflicts' in your pull requests and you'll get a view showing you conflict lines.
+
+!['resolve conflicts' button](readme-pics/git-conflict-pr.png)
+
+For each conflict you'll see 2 options: 'current change' is your suggestion and 'incoming change' is the one who someone already uploaded. Click the relevant link to accept the better option (but not both, as it will break the file format). After all conflicts are fixed click the right-top button 'mark as resolved'
+
+![choose the option you prefer](readme-pics/git-resolving-conflict.png)
+
+When the conflicts in all files are fixed, commit your 'patch'. You might get a warning about it, don't worry, just proceed and now your pull request can be easily accepted.
+
+![commit warning](readme-pics/git-resolving-commit.png)
+
 
 # Outro
 
