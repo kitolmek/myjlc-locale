@@ -46,8 +46,8 @@ Potrai venire quando sei abbastanza eccitato. \vAl 100% non sarai in grado di co
         <trans-unit id="2187456524288" xml:space="preserve" resname="help_patreon">
           <source>Support me on Patreon \vto make {name} feel even better :-)
 We'll decide on the new features, clothes and toys there.. \vAlso exclusive content will appear in the future.</source>
-          <target state="translated">Sostienimi su Patreon \vper far sentire {name} ancora meglio :-)
-Decideremo insieme le nuove funzionalità, i vestiti e i giocattoli.. \vIn futuro arriveranno anche contenuti esclusivi.</target>
+          <target state="needs-translation">Sostienimi su Patreon \vper far sentire {name} ancora meglio :-)
+Decideremo insieme le nuove funzionalità, i vestiti e sex toys... \vIn futuro arriveranno anche contenuti esclusivi.</target>
         </trans-unit>
         <trans-unit id="2370294624256" xml:space="preserve" resname="help_erozone">
           <source>{name} has many erogenous zones. \vSome are more sensitive then others.
@@ -97,7 +97,7 @@ Oggi passerà del tempo con te... \vPrenditi cura di lei.</target>
         </trans-unit>
         <trans-unit id="39431345123328" xml:space="preserve" resname="welcome_settings">
           <source>fine tune the UI</source>
-          <target state="needs-translation">rifinisci l'interfaccia</target>
+          <target state="needs-translation">regola l'interfaccia</target>
         </trans-unit>
         <trans-unit id="39744747712512" xml:space="preserve" resname="welcome_1_9_main">
           <source>&lt;size=200%&gt;Jazz it!&lt;/size&gt;
@@ -107,19 +107,19 @@ roguelike relationship simulator mode</source>
           <target state="needs-translation">&lt;size=200%&gt;Jazz it!&lt;/size&gt;
 Mettiti alla prova
 in un simulatore di relazioni
-roguelike tutto nuovo</target>
+roguelike completamente rifatto</target>
         </trans-unit>
         <trans-unit id="40047769399296" xml:space="preserve" resname="welcome_1_9_jazz">
           <source>jazz date the girls 
 from different corners 
 of the world</source>
           <target state="needs-translation">appuntamenti jazz
-con le ragazze
+con ragazze
 da tutto il mondo</target>
         </trans-unit>
         <trans-unit id="40294105067520" xml:space="preserve" resname="welcome_1_9_trust">
           <source>win her trust to unlock more possibilities</source>
-          <target state="needs-translation">conquistati la sua fiducia per sbloccare nuove possibilità</target>
+          <target state="translated">conquista la sua fiducia per sbloccare nuove possibilità</target>
         </trans-unit>
         <trans-unit id="40576083931136" xml:space="preserve" resname="welcome_1_9_traits">
           <source>traits are not set in stone anymore — \vshape them with your actions</source>
@@ -137,7 +137,7 @@ poterle soddisfare tutte!</target>
         </trans-unit>
         <trans-unit id="40956033347584" xml:space="preserve" resname="welcome_1_9_unlock">
           <source>challenge yourself with the toys *she* chooses</source>
-          <target state="needs-translation">mettiti alla prova con i giocattoli che sceglie *lei*</target>
+          <target state="needs-translation">mettiti alla prova con i sex toys che sceglie *lei*</target>
         </trans-unit>
       </group>
     </body>
